@@ -1,0 +1,90 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - gulp-server-livereload > socket.io > debug:
+        patched: '2019-12-10T21:31:53.388Z'
+    - gulp-server-livereload > socket.io > engine.io > debug:
+        patched: '2019-12-10T21:31:53.388Z'
+    - gulp-server-livereload > socket.io > socket.io-adapter > debug:
+        patched: '2019-12-10T21:31:53.388Z'
+    - gulp-server-livereload > socket.io > socket.io-client > debug:
+        patched: '2019-12-10T21:31:53.388Z'
+    - gulp-server-livereload > socket.io > socket.io-client > engine.io-client > debug:
+        patched: '2019-12-10T21:31:53.388Z'
+    - gulp-server-livereload > socket.io > socket.io-parser > debug:
+        patched: '2019-12-10T21:31:53.388Z'
+    - gulp-server-livereload > socket.io > socket.io-adapter > socket.io-parser > debug:
+        patched: '2019-12-10T21:31:53.388Z'
+    - web-component-tester > socket.io > socket.io-adapter > socket.io-parser > debug:
+        patched: '2019-12-10T21:31:53.388Z'
+    - gulp-server-livereload > socket.io > socket.io-client > socket.io-parser > debug:
+        patched: '2019-12-10T21:31:53.388Z'
+    - web-component-tester > serve-waterfall > send > debug:
+        patched: '2019-12-10T21:31:53.388Z'
+  'npm:lodash:20180130':
+    - web-component-tester > lodash:
+        patched: '2019-12-10T21:31:53.388Z'
+    - gulp-bower > inquirer > lodash:
+        patched: '2019-12-10T21:31:53.388Z'
+    - web-component-tester > stacky > lodash:
+        patched: '2019-12-10T21:31:53.388Z'
+  'npm:mime:20170907':
+    - gulp-server-livereload > serve-static > send > mime:
+        patched: '2019-12-10T21:31:53.388Z'
+    - web-component-tester > serve-waterfall > send > mime:
+        patched: '2019-12-10T21:31:53.388Z'
+  'npm:minimatch:20160620':
+    - gulp > vinyl-fs > glob-stream > minimatch:
+        patched: '2019-12-10T21:31:53.388Z'
+    - gulp-server-livereload > vinyl-fs > glob-stream > minimatch:
+        patched: '2019-12-10T21:31:53.388Z'
+    - web-component-tester > findup-sync > glob > minimatch:
+        patched: '2019-12-10T21:31:53.388Z'
+    - gulp-server-livereload > vinyl-fs > glob-stream > glob > minimatch:
+        patched: '2019-12-10T21:31:53.388Z'
+    - gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2019-12-10T21:31:53.388Z'
+    - gulp-server-livereload > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2019-12-10T21:31:53.388Z'
+    - gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2019-12-10T21:31:53.388Z'
+    - gulp-server-livereload > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2019-12-10T21:31:53.388Z'
+  'npm:ms:20170412':
+    - gulp-server-livereload > socket.io > debug > ms:
+        patched: '2019-12-10T21:31:53.388Z'
+    - gulp-server-livereload > socket.io > engine.io > debug > ms:
+        patched: '2019-12-10T21:31:53.388Z'
+    - gulp-server-livereload > socket.io > socket.io-adapter > debug > ms:
+        patched: '2019-12-10T21:31:53.388Z'
+    - gulp-server-livereload > socket.io > socket.io-client > debug > ms:
+        patched: '2019-12-10T21:31:53.388Z'
+    - gulp-server-livereload > socket.io > socket.io-client > engine.io-client > debug > ms:
+        patched: '2019-12-10T21:31:53.388Z'
+    - gulp-server-livereload > socket.io > socket.io-parser > debug > ms:
+        patched: '2019-12-10T21:31:53.388Z'
+    - gulp-server-livereload > socket.io > socket.io-adapter > socket.io-parser > debug > ms:
+        patched: '2019-12-10T21:31:53.388Z'
+    - web-component-tester > socket.io > socket.io-adapter > socket.io-parser > debug > ms:
+        patched: '2019-12-10T21:31:53.388Z'
+    - gulp-server-livereload > socket.io > socket.io-client > socket.io-parser > debug > ms:
+        patched: '2019-12-10T21:31:53.388Z'
+  'npm:ms:20151024':
+    - gulp-server-livereload > connect > debug > ms:
+        patched: '2019-12-10T21:31:53.388Z'
+    - gulp-server-livereload > serve-static > send > ms:
+        patched: '2019-12-10T21:31:53.388Z'
+    - gulp-server-livereload > connect > finalhandler > debug > ms:
+        patched: '2019-12-10T21:31:53.388Z'
+    - gulp-server-livereload > serve-static > send > debug > ms:
+        patched: '2019-12-10T21:31:53.388Z'
+    - web-component-tester > serve-waterfall > send > ms:
+        patched: '2019-12-10T21:31:53.388Z'
+    - web-component-tester > serve-waterfall > send > debug > ms:
+        patched: '2019-12-10T21:31:53.388Z'
+  'npm:negotiator:20160616':
+    - gulp-server-livereload > serve-index > accepts > negotiator:
+        patched: '2019-12-10T21:31:53.388Z'

@@ -1,0 +1,18 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - gulp-server-livereload > lodash:
+        patched: '2020-04-30T21:32:51.322Z'
+    - web-component-tester > wct-local > selenium-standalone > lodash:
+        patched: '2020-04-30T21:32:51.322Z'
+    - web-component-tester > wct-sauce > sauce-connect-launcher > lodash:
+        patched: '2020-04-30T21:32:51.322Z'
+    - web-component-tester > wct-local > launchpad > async > lodash:
+        patched: '2020-04-30T21:32:51.322Z'
+    - web-component-tester > wct-local > selenium-standalone > async > lodash:
+        patched: '2020-04-30T21:32:51.322Z'
+    - web-component-tester > wct-sauce > sauce-connect-launcher > async > lodash:
+        patched: '2020-04-30T21:32:51.322Z'

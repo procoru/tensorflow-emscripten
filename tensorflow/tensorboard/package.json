@@ -4,8 +4,9 @@
   "description": "Visualizers for TensorFlow",
   "scripts": {
     "test": "gulp test",
-    "prepare": "npm install && bower install && typings install",
-    "compile": "gulp compile"
+    "prepare": "npm run snyk-protect && npm install && bower install && typings install",
+    "compile": "gulp compile",
+    "snyk-protect": "snyk protect"
   },
   "keywords": [
     "tensorflow"
@@ -35,5 +36,9 @@
     "vinyl-source-stream": "^1.1.0",
     "vulcanize": "^1.14.0",
     "web-component-tester": "4.2.2"
+  },
+  "snyk": true,
+  "dependencies": {
+    "snyk": "^1.316.1"
   }
 }

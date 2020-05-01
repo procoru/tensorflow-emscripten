@@ -7,7 +7,9 @@
     "example": "examples"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "keywords": [
     "tensorflow",
@@ -17,9 +19,11 @@
   "author": "Tomas Reimers",
   "license": "MIT",
   "dependencies": {
-    "tensorjs": "^0.3.1"
+    "tensorjs": "^0.3.1",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "canvas": "^1.6.2"
-  }
+  },
+  "snyk": true
 }

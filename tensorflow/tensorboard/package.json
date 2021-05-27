@@ -34,6 +34,6 @@
     "typings": "1.4.0",
     "vinyl-source-stream": "^1.1.0",
     "vulcanize": "^1.14.0",
-    "web-component-tester": "4.2.2"
+    "web-component-tester": "6.4.0"
   }
 }
